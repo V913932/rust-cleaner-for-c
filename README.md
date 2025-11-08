@@ -27,7 +27,8 @@ char* g = malloc(100);
 strcpy(g, "This is garbage from C.");
 clean it with this lib:
 clean_garbage(g);
-
-if you want to make it a static libary,go to cargo toml and change the lib from Cargo.toml to this:```toml
+```
+if you want to make it a static libary,go to cargo toml and change the lib from Cargo.toml to this:
+```toml
 [lib]
 crate-type = ["staticlib"]
